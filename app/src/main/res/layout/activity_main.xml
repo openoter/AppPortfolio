@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_marginTop="@dimen/y50dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="@dimen/y10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/app_title" />
+    <Button
+        android:id="@+id/bt_popular_movies"
+        android:text="@string/popular_movies"
+        android:layout_width="@dimen/main_btn_width"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/y10dp"
+        android:background="@color/btn_bg"
+        android:textColor="@color/text_color"
+        android:layout_height="@dimen/btn_main_height" />
+    <Button
+        android:id="@+id/bt_stock_hawk"
+        android:text="@string/stock_hawk"
+        android:layout_width="@dimen/main_btn_width"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/y10dp"
+        android:gravity="center"
+        android:background="@color/btn_bg"
+        android:textColor="@color/text_color"
+        android:layout_height="@dimen/btn_main_height" />
+    <Button
+        android:id="@+id/bt_build_it_bigger"
+        android:text="BUILD IT BIGGER"
+        android:layout_width="@dimen/main_btn_width"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/y10dp"
+        android:background="@color/btn_bg"
+        android:textColor="@color/text_color"
+        android:layout_height="@dimen/btn_main_height" />
+    <Button
+        android:id="@+id/bt_make_your_app_material"
+        android:text="MAKE YOUR APP MATERIAL"
+        android:layout_width="@dimen/main_btn_width"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/y10dp"
+        android:background="@color/btn_bg"
+        android:textColor="@color/text_color"
+        android:layout_height="@dimen/btn_main_height" />
+    <Button
+        android:id="@+id/btn_go_ubiquitous"
+        android:text="GO UBIQUITOUS"
+        android:layout_width="@dimen/main_btn_width"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/y10dp"
+        android:background="@color/btn_bg"
+        android:textColor="@color/text_color"
+        android:layout_height="@dimen/btn_main_height" />
+    <Button
+        android:id="@+id/btn_capstone"
+        android:text="CAPSTONE"
+        android:layout_width="@dimen/main_btn_width"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/y10dp"
+        android:background="@color/btn_bg"
+        android:textColor="@color/text_color"
+        android:layout_height="@dimen/btn_main_height" />
+</LinearLayout>
